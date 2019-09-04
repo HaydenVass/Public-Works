@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">VassHayden_CE08</string>
+    <string name="is_empty"> You can\'t leave the text field empty!</string>
+    <string name="already_exist"> You already have this word!</string>
+    <string name="add">Submit</string>
+</resources>

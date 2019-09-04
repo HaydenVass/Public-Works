@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HaydenVAss_CE06</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="colon"><b>:</b></string>
+    <string name="second_s">Second(s)</string>
+    <string name="minute_s">Minute(s)</string>
+    <string name="close">Close</string>
+    <string name="timer_finished">Timer Finished</string>
+    <string name="timer_cancelled">Timer Cancelled</string>
+    <string name="elapsed_time">Elapsed time - Minute(s) %1$s Second(s) %2$s</string>
+    <string name="valid_time">Please enter a valid time.</string>
+    <string name="zerozero">00</string>
+
+
+
+</resources>

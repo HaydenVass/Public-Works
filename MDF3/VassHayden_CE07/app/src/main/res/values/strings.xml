@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VassHayden_CE07</string>
+    <string name="start">Start</string>
+    <string name="credits">Credits</string>
+    <string name="application_by_hayden_vass">Application by Hayden Vass</string>
+    <string name="art_by_full_sail_university">Art by Full Sail University</string>
+    <string name="view_list">view list</string>
+</resources>

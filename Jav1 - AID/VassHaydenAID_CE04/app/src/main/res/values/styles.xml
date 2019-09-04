@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/spotify_green_light</item>
+        <item name="colorPrimaryDark">@color/spotify_green</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    
+    <style name="uninstall_open_btn">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+
+    <style name="app_name_and_author">
+        <item name="android:layout_width">196dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:gravity">top</item>
+        <item name="android:paddingStart">16dp</item>
+    </style>
+
+    <style name="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/spotify_green</item>
+    </style>
+
+    <style name="matchparent_wrapcontent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="image_views">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:layout_weight">0.33</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="matchparent_wrapcontent_bottom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/light_gray</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:bottom">8dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="image_views_bottom">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:layout_gravity">right</item>
+    </style>
+
+    <style name="bottom_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">start</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="links">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/spotify_green</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="app_name_and_author.padding_start_end_8dp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style>
+
+    <style name="wrap_contentx2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

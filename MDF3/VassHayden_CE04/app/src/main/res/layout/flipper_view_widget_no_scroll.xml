@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.10"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/button_settings"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:src="@drawable/ic_settings_black_24dp" />
+
+            <ImageButton
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/button_previous"
+                android:src="@drawable/ic_arrow_back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:orientation="horizontal">
+
+        <AdapterViewFlipper
+            android:id="@+id/flipperWidgetView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autoStart="false"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/flipperWidgetEmptyView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/no_images"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.10"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/button_settings2"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                />
+
+            <ImageButton
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/button_next"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_arrow_forward" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

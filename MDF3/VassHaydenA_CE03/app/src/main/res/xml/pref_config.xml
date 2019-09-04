@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Choose City" >
+
+        <ListPreference
+            android:defaultValue="28.5383,-81.3792"
+            android:dialogTitle="@string/dialog_title_list_preference"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entryvalues_list_preference"
+            android:key="list_preference"
+            android:summary="Cities"
+            android:title="Cities" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title=" Light / Dark Mode" >
+
+        <ListPreference
+            android:defaultValue="light"
+            android:dialogTitle="color theme"
+            android:entries="@array/entries_list_color_preference"
+            android:entryValues="@array/entryvalues_list_color_preference"
+            android:key="list_color_preference"
+            android:summary="Color Theme"
+            android:title="Color Theme" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

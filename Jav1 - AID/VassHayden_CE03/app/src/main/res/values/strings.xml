@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VassHayden_CE03</string>
+    <string name="add_Btn">Add</string>
+    <string name="avg_wrd_length">Average Word Length - %1$s</string>
+    <string name="median_wrd_length">Median Word Length - %1$s</string>
+    <string name="view">View</string>
+    <string name="already_exist"> You already have this word!</string>
+    <string name="is_empty"> You cant leave the text field empty!</string>
+    <string name="no_words_yet">No words to view yet!</string>
+    <string name="dialog_pos_btn">Close</string>
+    <string name="dialog_neg_btn">Delete</string>
+    <string name="dialog_title">Selected Word: </string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VassHayden_CE05</string>
+    <string name="no_network">No network Connection. Please check your connection.</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="no_description">No description available.</string>
+
+</resources>

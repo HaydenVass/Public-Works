@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButtonElevated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:id="@+id/materialButtonUnelevated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="unelevated button"
+        app:layout_constraintBottom_toBottomOf="@id/materialButtonElevated"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButtonOutline"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="outline button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@id/materialButtonUnelevated"
+        app:layout_constraintStart_toStartOf="@id/materialButtonUnelevated"
+        app:layout_constraintTop_toBottomOf="@id/materialButtonUnelevated" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButtonOutlineIcon"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:text="outline with icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        app:icon="@drawable/flag"
+        app:layout_constraintEnd_toEndOf="@id/materialButtonOutline"
+        app:layout_constraintStart_toStartOf="@id/materialButtonOutline"
+        app:layout_constraintTop_toBottomOf="@id/materialButtonOutline" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButtonTextButton"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:text="text button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        app:icon="@drawable/flag"
+        app:layout_constraintEnd_toEndOf="@id/materialButtonOutlineIcon"
+        app:layout_constraintStart_toStartOf="@id/materialButtonOutlineIcon"
+        app:layout_constraintTop_toBottomOf="@id/materialButtonOutlineIcon" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButtonBorderRAdius"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        app:cornerRadius="50dp"
+        android:text="round button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintEnd_toEndOf="@id/materialButtonTextButton"
+        app:layout_constraintStart_toStartOf="@id/materialButtonTextButton"
+        app:layout_constraintTop_toBottomOf="@id/materialButtonTextButton" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButtonBorderRAdiuswithStroke"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:cornerRadius="50dp"
+        android:text="withstroke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        app:strokeWidth="2dp"
+        app:strokeColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@id/materialButtonBorderRAdius"
+        app:layout_constraintStart_toStartOf="@id/materialButtonBorderRAdius"
+        app:layout_constraintTop_toBottomOf="@id/materialButtonBorderRAdius" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/text_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintEnd_toEndOf="@id/materialButtonBorderRAdiuswithStroke"
+        app:layout_constraintStart_toEndOf="@id/materialButtonBorderRAdiuswithStroke"
+        app:layout_constraintTop_toBottomOf="@+id/materialButtonBorderRAdiuswithStroke">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/input"
+        android:hint="Usernmae"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu_bottom_nav"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

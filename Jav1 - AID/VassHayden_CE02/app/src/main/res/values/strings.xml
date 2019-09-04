@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VassHayden_CE02</string>
+    <string name="toast_isEmpty">Please make sure all text fields have a number!</string>
+    <string name="dialog_msg_win_title">Winner!</string>
+    <string name="dialog_msg_win">You won! Start a new game?</string>
+    <string name="dialog_msg_lost_title">Out of guesses!</string>
+    <string name="dialog_msg_lost">You lost! Start a new game?</string>
+    <string name="dialog_pos_btn">Yes</string>
+    <string name="submit_guess">Submit Guess</string>
+    <string name="guesst_counter">Guesses remaining - %1$s</string>
+</resources>

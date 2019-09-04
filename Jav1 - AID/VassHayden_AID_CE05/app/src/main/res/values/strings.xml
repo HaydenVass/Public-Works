@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VassHayden_AID_CE05</string>
+        <string name="refresh">Refresh</string>
+        <string-array name="spinner_values">
+            <item>Student</item>
+            <item>Instructor</item>
+            <item>Administrator</item>
+        </string-array>
+</resources>

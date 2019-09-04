@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Bark_Buddy</string>
+    <string name="signup">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="enter_your_dogs_name">Enter your dogs name:</string>
+    <string name="enter_breed_to_the_best_of_your_ability">Enter breed (to the best of your ability)</string>
+    <string name="enter_a_password">Enter a password</string>
+    <string name="enter_email">Enter email -</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="next">Next</string>
+    <string name="enter_your_dogs_energy_level">Enter your dogs energy level -</string>
+    <string name="enter_your_dogs_approx_weight">Enter your dogs approx. weight -</string>
+    <string name="enter_a_small_description_about_your_best_friend">Enter a small description about your best friend!</string>
+    <string name="enter_an_image_of_your_dog">Enter an image of your dog!</string>
+    <string name="bio">Bio:</string>
+    <string name="please_provide_a_brief_description_of_anything_that_might_trigger_your_pet">Please provide a brief description of anything that might trigger your pet-</string>
+    <string name="triggers">Triggers-</string>
+    <string name="before_moving_on_please_upload_an_image_of_your_pets_most_recent_vaccination_records">Before moving on, please upload an image of your pets most recent vaccination records.</string>
+    <string-array name="energy_levels">
+        <item>Any</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="weight_range">
+        <item>Any</item>
+        <item>Less than 7</item>
+        <item>7 – 15</item>
+        <item>16 – 35</item>
+        <item>36 – 50</item>
+        <item>50 – 75</item>
+        <item>76 or above</item>
+    </string-array>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="filter">Filter</string>
+    <string name="enterpword">Enter password</string>
+    <string name="my_events">My Events</string>
+    <string name="friends">Friends</string>
+    <string name="profile">Profile</string>
+    <string name="energyLev">Energy Level:</string>
+    <string name="weight_range3">Weight Range:</string>
+    <string name="distance">Distance:</string>
+    <string name="desired_energy_level">Desired Energy Level:</string>
+    <string name="desired_weight_range">Desired weight range:</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="create_event">Create Event</string>
+    <string name="tap_to_add_an_image">Tap to add an image.</string>
+    <string name="addresshere">address of event here</string>
+
+    <string name="nonValidLocal">Location was not valid, please try again.</string>
+    <string name = "fillAllForms">Please be sure all fields are filled out before continuing.</string>
+    <string name="wentWrong">Something went wrong. Please try again.</string>
+    <string name="miles"> miles</string>
+    <string name="msgSent">Message Sent</string>
+    <string name="msgNotSent">Message Not Sent</string>
+    <string name="pwNoMatch">Passwords dont match</string>
+    <string name="logInInfoNoMatch">"Log in info didn't match. Please try again."</string>
+    <string name="ops">Ops, somethign went wrong.</string>
+    <string name="log_out">Log Out</string>
+    <string name="post">Post</string>
+    <string name="description">Description:</string>
+    <string name="possible_triggers">Possible Triggers:</string>
+    <string name="attend">Attend</string>
+    <string name="end">End:</string>
+    <string name="start">Start:</string>
+    <string name="date">Date:</string>
+    <string name="host">Host</string>
+    <string name="location">Location:</string>
+    <string name="attending">Attending</string>
+    <string name="hosting">Hosting</string>
+    <string name="bark_buddy">Bark Buddy</string>
+    <string name="chatting_with">Chatting With:</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="message">Message</string>
+    <string name="finish">Finish</string>
+
+
+</resources>

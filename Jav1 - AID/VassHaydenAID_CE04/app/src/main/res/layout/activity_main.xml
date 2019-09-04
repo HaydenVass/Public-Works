@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/banner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="150dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/wrap_contentx2"
+                        android:paddingTop="16dp"
+                        android:paddingLeft="8dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/spotify"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="172dp" />
+
+                    <LinearLayout
+                        style="@style/wrap_contentx2"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/app_name_and_author.padding_start_end_8dp"
+                            android:paddingTop="16dp"
+                            android:textColor="@android:color/black"
+                            android:text="@string/spotify"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            style="@style/app_name_and_author.padding_start_end_8dp"
+                            android:text="@string/hayden_vass"
+                            android:textColor="@color/gray" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/matchparent_wrapcontent">
+
+                    <Button
+                        android:text="@string/uninstall"
+                        android:textColor="@color/spotify_green"
+                        android:background="@drawable/button_outline"
+                        style="@style/uninstall_open_btn" />
+
+                    <Button
+                        android:layout_marginRight="8dp"
+                        android:text="@string/openup"
+                        android:background="@color/spotify_green"
+                        android:textColor="@color/white"
+                        style="@style/uninstall_open_btn" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/matchparent_wrapcontent"
+                    android:paddingTop="24dp">
+                    <View
+                        style="@style/line"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/matchparent_wrapcontent">
+
+                    <TextView
+                        style="@style/app_name_and_author"
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="16dp"
+                        android:paddingTop="16dp"
+                        android:text="@string/description_txt"
+                        android:textSize="20sp"
+                        android:paddingBottom="24dp"
+                        />
+                </LinearLayout>
+<!--whats new-->
+                <LinearLayout
+                    style="@style/matchparent_wrapcontent"
+                    android:background="@color/spotify_green_light"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:paddingTop="16dp"
+                        android:paddingLeft="8dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/whats_new_icon" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:background="@color/spotify_green_light"
+                        android:gravity="start"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="16dp"
+                        android:text="@string/whatsnew"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/matchparent_wrapcontent"
+                    android:paddingTop="24dp">
+
+                    <Button
+                        style="@style/links"
+                        android:text="@string/read_more" />
+                </LinearLayout>
+
+                <!--images -->
+                <LinearLayout
+                    style="@style/matchparent_wrapcontent"
+                    android:orientation="horizontal"
+                    android:paddingTop="24dp">
+
+                    <ImageView
+                        android:layout_marginLeft="4dp"
+                        style="@style/image_views"
+                        android:src="@drawable/screenshot1" />
+
+                    <ImageView
+                        style="@style/image_views"
+                        android:src="@drawable/screenshot2" />
+
+                    <ImageView
+                        style="@style/image_views"
+                        android:src="@drawable/screenshot3" />
+
+                </LinearLayout>
+                <!--Reviews-->
+
+                <ListView
+                    android:id="@+id/cell"
+                    android:layout_width="match_parent"
+                    android:layout_height="900dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/white" />
+
+
+                <Button
+                    style="@style/links"
+                    android:text="@string/all_reviews"/>
+
+                <View
+                    style="@style/line" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/share" />
+
+                <Button
+                    style="@style/links"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/share"/>
+
+<!--bottom part -->
+                <TextView
+                    style="@style/matchparent_wrapcontent_bottom"
+                    android:layout_gravity="start"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="16dp"
+                    android:text="@string/developer"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    style="@style/matchparent_wrapcontent_bottom"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/image_views_bottom"
+                        android:src="@drawable/mail" />
+
+                    <TextView
+                        style="@style/bottom_text"
+                        android:text="@string/send_email"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/matchparent_wrapcontent_bottom">
+
+                    <ImageView
+                        style="@style/image_views_bottom"
+                        android:src="@drawable/security" />
+                    <TextView
+                        style="@style/bottom_text"
+                        android:text="@string/permission_details" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/matchparent_wrapcontent_bottom"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/image_views_bottom"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+                        style="@style/bottom_text"
+                        android:text="@string/flag_as_inappropriate" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

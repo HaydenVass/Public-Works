@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">VassHaydenAID_CE04</string>
+    <string name="whatsnew"><b><u>Whats new?</u></b>\n-Users can now make custom themes\n-Ability to combine playlist\n-More recommended music\n-Bug fixes</string>
+    <string name="all_reviews">All Reviews</string>
+    <string name="description_txt">Premium audio streaming service for music and podcast.</string>
+    <string name="read_more">Read More</string>
+    <string name="developer">Developer</string>
+    <string name="send_email">Send Email</string>
+    <string name="permission_details">Permission details</string>
+    <string name="flag_as_inappropriate">Flag as Inappropriate</string>
+    <string name="hayden_vass">Hayden Vass</string>
+    <string name="spotify">Spotify</string>
+    <string name="share">Share</string>
+    <string name="openup">Open</string>
+    <string name="uninstall">Uninstall</string>
+
+    <string name="awesome"><b>Awesome!</b></string>
+    <string name="could_be_better"><b>Not bad</b></string>
+    <string name="bad"><b>Just slow!</b></string>
+    <string name="love"><b>Love it!</b></string>
+    <string name="horrible"><b>Horrible!</b></string>
+
+
+</resources>

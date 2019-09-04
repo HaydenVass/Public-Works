@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VassHayden_CE01</string>
+    <string name="number_of_clicks">Number of Clicks  - %1$s</string>
+    <string name="reset">Reset</string>
+</resources>

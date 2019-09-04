@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VassHaydenAID_CE03</string>
+    <string name="background_color">Background Color</string>
+    <string name="purple_text">Purple</string>
+    <string name="blue_text">Blue</string>
+    <string name="green_text">Green</string>
+    <string name="black_text">Black</string>
+    <string name="display_text_txt">Display text</string>
+    <string name="text_style_optional">Text Style (Optional)</string>
+    <string name="bold_txts">Bold</string>
+    <string name="text_appears_here">Text appears here</string>
+</resources>

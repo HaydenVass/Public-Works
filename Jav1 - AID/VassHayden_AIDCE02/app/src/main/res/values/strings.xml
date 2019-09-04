@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VassHayden_AIDCE02</string>
+    <string name="GG">The Great Gatsby</string>
+    <string name="summary">The Great Gatsby, F. Scott Fitzgerald’s 1925 Jazz Age novel about the impossibility of recapturing the past, was initially a failure. Today, the story of Gatsby’s doomed love for the unattainable Daisy is considered a defining novel of the 20th century."
+</string>
+    <string name="endingText">Nick links the American Dream to Gatsby’s love for Daisy, in that both are unattainable. As Nick explains on the novel’s final page, Gatsby spent years hoping for a happy future with Daisy, but this future always receded into the distance. Nick claims that Gatsby’s hopes for the future were elusive because they didn’t relate to the future at all. Instead, these hopes actually bore him “back ceaselessly into the past,” back to that promise-filled moment when the Dutch sailors first set eyes on America. Nick puts the matter thus: “[Gatsby] had come a long way to this blue lawn, and his dream must have seemed so close that he could hardly fail to grasp it. He did not know that it was already behind him.” In the end, then, both Gatsby and America are tragic because they remain trapped in an old dream that has not and may never become a reality.</string>
+    <string name="ending">Whats the ending mean?</string>
+    <string name="plot_overview_text"> Nick Carraway, a young man from Minnesota, moves to New York in the summer of 1922 to learn about the bond business. He rents a house in the West Egg district of Long Island, a wealthy but unfashionable area populated by the new rich, a group who have made their fortunes too recently to have established social connections and who are prone to garish displays of wealth. Nick’s next-door neighbor in West Egg is a mysterious man named Jay Gatsby, who lives in a gigantic Gothic mansion and throws extravagant parties every Saturday night.
+Nick is unlike the other inhabitants of West Egg—he was educated at Yale and has social connections in East Egg, a fashionable area of Long Island home to the established upper class. Nick drives out to East Egg one evening for dinner with his cousin, Daisy Buchanan, and her husband, Tom, an erstwhile classmate of Nick’s at Yale. Daisy and Tom introduce Nick to Jordan Baker, a beautiful, cynical young woman with whom Nick begins a romantic relationship. </string>
+    <string name="plot_overview">Plot Overview</string>
+</resources>
+

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "434060000040",
+    "firebase_url": "https://barkbuddy-de27f.firebaseio.com",
+    "project_id": "barkbuddy-de27f",
+    "storage_bucket": "barkbuddy-de27f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434060000040:android:ad304075c2482c87",
+        "android_client_info": {
+          "package_name": "com.example.bark_buddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434060000040-kof8ep2rp4pc09igkvse914q8d6atkd6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bark_buddy",
+            "certificate_hash": "9ff98a612692f491c38afd38846db71dd837d1cd"
+          }
+        },
+        {
+          "client_id": "434060000040-90i145nvoa8vr071a0fsj5l2bm2gmd4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhEKaCly-RvPCyJ-ZZo96hXtlAD4GD_s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434060000040-90i145nvoa8vr071a0fsj5l2bm2gmd4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

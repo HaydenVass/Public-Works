@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">J1_D1</string>
+
+    <string name="btn_read">Read</string>
+    <string name="btn_write">Write</string>
+
+    <string name="output_text">SomeText</string>
+    <string name="textonthis">SomeOtherText</string>
+
+
+</resources>

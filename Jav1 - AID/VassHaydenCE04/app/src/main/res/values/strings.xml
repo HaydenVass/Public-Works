@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">VassHaydenCE04</string>
+    <string-array name="spinner1_values">
+        <item>List View</item>
+        <item>Grid View</item>
+    </string-array>
+
+    <string-array name="spinner2_values">
+        <item>Array Adapter</item>
+        <item>Simple Adapter</item>
+        <item>Base Adapter</item>
+    </string-array>
+    <string name = "close">Close</string>
+</resources>

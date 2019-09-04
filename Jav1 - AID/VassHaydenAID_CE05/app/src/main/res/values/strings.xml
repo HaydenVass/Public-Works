@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">VassHaydenAID_CE05</string>
+    <string name="refresh">Refresh</string>
+    <string name="add_a_student">Add a student</string>
+    <string name="student_id">Student ID</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="add_student">Add Student</string>
+    <string name="add_instructor">Add Instructor</string>
+    <string name="add_an_instructor">Add an Instructor</string>
+    <string name="course">Course</string>
+    <string name="add_an_administrator">Add an Administrator</string>
+    <string name="program">Program</string>
+    <string name="none_to_view">There are currently no people to view.</string>
+    <string name="add_administrator">Add Administrator</string>
+    <string name="please_rotate_the_phone_to_portrait">Please rotate the phone to portrait</string>
+    <string name="added_instructor">Instructor Added</string>
+    <string name="added_admin">Administrator Added</string>
+    <string name="added_student">Student Added</string>
+    <string name="empty_fields">Please be sure no fields were left empty.</string>
+
+    <string-array name="spinner_values">
+        <item>Student</item>
+        <item>Instructor</item>
+        <item>Administrator</item>
+    </string-array>
+</resources>

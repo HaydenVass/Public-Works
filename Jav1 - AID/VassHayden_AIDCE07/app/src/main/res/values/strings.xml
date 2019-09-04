@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VassHayden_AIDCE07</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="age">Age</string>
+    <string name="save">save</string>
+</resources>

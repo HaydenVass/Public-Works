@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/MediumSeaGreen</item>
+        <item name="colorPrimaryDark">@color/MediumSeaGreenDark</item>
+        <item name="colorAccent">@color/Tomato</item>
+    </style>
+
+    <style name="frame_view_portrait">
+          <item name="android:layout_width">200dp</item>
+          <item name="android:layout_height">200dp</item>
+          <item name="android:layout_marginStart">106dp</item>
+          <item name="android:layout_marginEnd">106dp</item>
+          <item name="android:layout_marginTop">24dp</item>
+          <item name="android:layout_marginBottom">8dp</item>
+      </style>
+
+    <style name="frame_view_imageView">
+        <item name="android:layout_width">119dp</item>
+        <item name="android:layout_height">123dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/robot</item>
+    </style>
+
+    <style name="frame_view_text_portrait">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">top</item>
+        <itme name="android:gravity">center</itme>
+        <item name="android:textSize">15sp</item>
+        <item name="android:text">@string/text_appears_here</item>
+    </style>
+
+    <style name="frame_view_color_portrait">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="wrap_h_w">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wrap_h_w.radio_group">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="wrap_h_w.portrait_textviews">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+</resources>

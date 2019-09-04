@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/IndianRed</item>
+        <item name="colorPrimaryDark">@color/IndianRedDark</item>
+        <item name="colorAccent">@color/Khaki</item>
+    </style>
+    <!--custom style parent -->
+    <style name="FormBase">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:ems">16</item>
+    </style>
+
+    <style name="FormBase.FirstInput">
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:layout_marginTop">42dp</item>
+    </style>
+
+    <style name="FormBase.ButtonLogin">
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+
+    </style>
+    <style name="FormBase.ButtonRegister">
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+    </style>
+
+    <style name="registrationFormBase">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:ems">10</item>
+    </style>
+
+
+    <style name="secondViewButtons">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="registerButton" parent = "ThemeOverlay.AppCompat.Dark">
+        <item name="colorButtonNormal">@color/LightSteelBlue</item>
+    </style>
+
+    <style name="cancelButton" parent = "ThemeOverlay.AppCompat.Dark">
+        <item name="colorButtonNormal">@color/IndianRed</item>
+    </style>
+
+    <!-- inheritting text style from parent SDK style -->
+    <style name = "loginText" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/MidnightBlue</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+    </style>
+
+    <!-- theme over lay -->
+    <style name="alternateButton" parent = "ThemeOverlay.AppCompat.Dark">
+        <item name="colorButtonNormal">@color/maroon</item>
+    </style>
+
+    <style name="alternateLoginButton" parent = "ThemeOverlay.AppCompat.Dark">
+        <item name="colorButtonNormal">@color/SaddleBrown</item>
+    </style>
+
+</resources>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">VassHayden_CE03</string>
+    <string name="dialog_title_list_preference">Cities</string>
+    <string name="save">save</string>
+    <string name="current_temp">Current Temp: %1$s</string>
+    <string name="current_conditions">Currently: %1$s</string>
+    <string name="no_internet">- No internet - </string>
+    <string name="no_saved_data">- and no saved data to show - </string>
+    <string name="low">Low: %1$s -</string>
+    <string name="high"> High: %1$s</string>
+    <string name="listview_timestampe">Last updated at - </string>
+
+
+    <string-array name="entries_list_color_preference">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="entryvalues_list_color_preference">
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+    <string-array name="entries_list_preference">
+        <item>Orlando, FL</item>
+        <item>Portland, ME</item>
+        <item>Phoenix, AZ</item>
+    </string-array>
+
+    <string-array name="entryvalues_list_preference">
+        <item>28.5383,-81.3792</item>
+        <item>43.6591,-70.2568</item>
+        <item>33.4484,-112.0740</item>
+    </string-array>
+
+
+
+</resources>

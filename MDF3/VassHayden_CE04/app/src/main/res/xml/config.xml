@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title=" Enable auto scrolling" >
+
+        <CheckBoxPreference
+            android:key="checkbox_preference"
+            android:defaultValue="true"
+            android:title="Auto scrolling"
+            android:summary="Automatically scroll through images on your device. " />
+
+    </PreferenceCategory>
+</PreferenceScreen>

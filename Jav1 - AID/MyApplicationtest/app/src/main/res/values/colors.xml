@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Khaki">#F0E68C</color>
+    <color name="Lavender">#E6E6FA</color>
+    <color name="Azure">#F0FFFF</color>
+    <color name="IndianRed">#CD5C5C</color>
+    <color name="LightSteelBlue">#B0C4DE</color>
+
+</resources>

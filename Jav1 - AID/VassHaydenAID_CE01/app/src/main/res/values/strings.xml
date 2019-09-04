@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">VassHayden_CE01</string>
+    <string name="march_12th">March, 12th</string>
+    <string name="switch_to_linear">Switch to Linear</string>
+    <string name="switch_to_constraints">Switch to Constraints</string>
+    <string name="sanford_florida">Sanford, Florida</string>
+    <string name="hometown">HOMETOWN</string>
+    <string name="march_12">March, 12</string>
+    <string name="hayden_vass">Hayden Vass</string>
+    <string name="hobbies">HOBBIES</string>
+    <string name="bio">BIO</string>
+    <string name="my_hobbies">Playing music\nWorking out\nMovies</string>
+    <string name="my_bio">My name is Hayden Vass and Im origianlly from Central Florida. I joined the Army in 2011 in which is
+    I moved between Texas and Maryland. I decided to move back when I chose to attend Full Sail. </string>
+    <string name="birthtdayText">BIRTHTDAY</string>
+    <string name="todo">TODO</string>
+</resources>

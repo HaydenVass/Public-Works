@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VassHayden_CE03</string>
+    <string name="message">Current Time Is %1$s</string>
+    <string name="my_analog_name">Western Sky</string>
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_albumart"
+        android:layout_width="290dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Switch
+        android:id="@+id/switch_looping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/button_next"
+        app:layout_constraintStart_toStartOf="@+id/button_next"
+        app:layout_constraintTop_toBottomOf="@+id/button_next"
+        tools:text="random" />
+
+    <Switch
+        android:id="@+id/switch_random"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/button_previous"
+        app:layout_constraintStart_toStartOf="@+id/button_previous"
+        app:layout_constraintTop_toBottomOf="@+id/button_previous"
+        tools:text="shuffle" />
+
+    <SeekBar
+        android:id="@+id/seekBar_song"
+        android:layout_width="356dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView_albumart"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView_songtitle"
+        android:layout_width="357dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView_albumart"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Song title" />
+
+    <ImageButton
+        android:id="@+id/button_play"
+        android:layout_width="224dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:src="@drawable/ic_play_arrow"
+        app:layout_constraintEnd_toEndOf="@+id/textView_songtitle"
+        app:layout_constraintStart_toStartOf="@+id/textView_songtitle"
+        app:layout_constraintTop_toBottomOf="@+id/textView_songtitle" />
+
+    <ImageButton
+        android:id="@+id/button_stop"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:src="@drawable/ic_stop"
+        app:layout_constraintEnd_toEndOf="@+id/textView_songtitle"
+        app:layout_constraintStart_toEndOf="@+id/button_play"
+        app:layout_constraintTop_toBottomOf="@+id/textView_songtitle" />
+
+    <ImageButton
+        android:id="@+id/button_pause"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:src="@drawable/ic_pause"
+        app:layout_constraintEnd_toStartOf="@+id/button_play"
+        app:layout_constraintStart_toStartOf="@+id/textView_songtitle"
+        app:layout_constraintTop_toBottomOf="@+id/textView_songtitle" />
+
+    <ImageButton
+        android:id="@+id/button_next"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="91dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:src="@drawable/ic_skip_next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_previous"
+        app:layout_constraintTop_toBottomOf="@+id/button_play"
+        tools:text="next" />
+
+    <ImageButton
+        android:id="@+id/button_previous"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="33dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:src="@drawable/ic_skip_previous"
+        app:layout_constraintEnd_toStartOf="@+id/button_next"
+        app:layout_constraintStart_toEndOf="@+id/imageView_albumart"
+        app:layout_constraintTop_toBottomOf="@+id/button_play"
+        tools:text="previous" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Shuffle"
+        app:layout_constraintEnd_toEndOf="@+id/switch_random"
+        app:layout_constraintStart_toStartOf="@+id/switch_random"
+        app:layout_constraintTop_toBottomOf="@+id/switch_random" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Loop"
+        app:layout_constraintEnd_toEndOf="@+id/switch_looping"
+        app:layout_constraintStart_toStartOf="@+id/switch_looping"
+        app:layout_constraintTop_toBottomOf="@+id/switch_looping" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,18 @@
+<html>
+<body>
+<h2>Student</h2>
+<script>
+    var htmlSyntax = Android.getStudent()
+    document.write(htmlSyntax)
+
+    deleteStudent = function(event){
+    Android.deleteStudent()
+    };
+
+</script>
+<form name= "detailsForm" onsubmit="return deleteStudent()">
+<p></p>
+<input type="submit" name="Submit" value="Delete" style="font-size: 18pt"/>
+</form>
+</body>
+</html>

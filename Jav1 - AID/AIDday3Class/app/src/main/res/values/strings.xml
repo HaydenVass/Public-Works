@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AIDday3Class</string>
+    <string name= "register">Register</string>
+    <string name= "cancel">Cancel</string>
+    <string name="registereComplete">Registration Successful!</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="log_in_or_make_new_account">Log in or make new account</string>
+    <string name="login">Login</string>
+    <string name="register_btn">register</string>
+    <string name="back_text">Back</string>
+</resources>

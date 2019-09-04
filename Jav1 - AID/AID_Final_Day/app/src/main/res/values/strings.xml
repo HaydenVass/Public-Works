@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android Versions</string>
+    <string name="title_activity_contacts">ContactsActivity</string>
+    <string name="version_name">Version Name</string>
+    <string name="version_number">Version Number</string>
+    <string name="add_version">Add Version</string>
+    <string name="there_are_no_andoird_versions_add_one">There are no Andoird Versions. Add one.</string>
+    <string name="add">add</string>
+</resources>

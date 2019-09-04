@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VassHayden_CE01</string>
+    <string name="take_picture">take picture</string>
+    <string name="enter_title">Enter title</string>
+    <string name="enterdescription">Enter a Description</string>
+    <string name="save">save</string>
+    <string name="detele">delete</string>
+    <string name="title">Title:</string>
+    <string name="description">Description:</string>
+    <string name="confirm_delete">Confirm Delete</string>
+
+
+</resources>

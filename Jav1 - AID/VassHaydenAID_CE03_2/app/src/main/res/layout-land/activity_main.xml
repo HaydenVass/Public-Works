@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        style="@style/wrap_heigh_width.frame_layout_landscape"
+        android:id="@+id/frameLayout"
+        android:layout_width="275dp"
+        android:layout_height="275dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/color_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@color/purple" />
+
+        <TextView
+            style="@style/changing_text"
+            android:id="@+id/FL_user_text" />
+
+        <ImageView
+            android:layout_width="167dp"
+            android:layout_height="183dp"
+            android:layout_gravity="center"
+            android:src="@drawable/robot" />
+    </FrameLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/background_color_label"
+            style="@style/wrap_heigh_width.labels.landscape"
+            android:layout_marginTop="8dp"
+            android:text="@string/background_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            style="@style/wrap_heigh_width.radio_groups"
+            android:id="@+id/view_radio_grp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/background_color_label">
+
+            <RadioButton
+                android:id="@+id/purple_radiobg_btn"
+                style="@style/wrap_heigh_width"
+                android:checked="true" />
+
+            <TextView
+                style="@style/wrap_heigh_width"
+                android:text="@string/purple_text" />
+
+            <RadioButton
+                style="@style/wrap_heigh_width"
+                android:id="@+id/green_radiobg_btn" />
+
+            <TextView
+                style="@style/wrap_heigh_width"
+                android:text="@string/green_text" />
+
+            <RadioButton
+                style="@style/wrap_heigh_width"
+                android:id="@+id/black_radiobg_button" />
+
+            <TextView
+                style="@style/wrap_heigh_width"
+                android:text="@string/black_text" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/display_text_et"
+            style="@style/wrap_heigh_width"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/display_text_txt"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_radio_grp" />
+
+        <TextView
+            style="@style/wrap_heigh_width.labels.landscape"
+            android:id="@+id/text_color_label"
+            android:text="@string/text_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/display_text_et" />
+
+        <RadioGroup
+            android:id="@+id/radioGrou_txtColor"
+            style="@style/wrap_heigh_width.radio_groups"
+            android:layout_height="29dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_color_label">
+
+            <RadioButton
+                android:id="@+id/purple_radiotxt_btn"
+                style="@style/wrap_heigh_width" />
+
+            <TextView
+                style="@style/wrap_heigh_width"
+                android:text="@string/purple_text" />
+
+            <RadioButton
+                android:id="@+id/green_radiotxt_btn"
+                style="@style/wrap_heigh_width" />
+
+            <TextView
+                style="@style/wrap_heigh_width"
+                android:text="@string/green_text" />
+
+            <RadioButton
+                android:id="@+id/black_radiotxt_button"
+                style="@style/wrap_heigh_width"
+                android:checked="true" />
+
+            <TextView
+                style="@style/wrap_heigh_width"
+                android:text="@string/black_text" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/text_style_text"
+            style="@style/wrap_heigh_width.labels.landscape"
+            android:text="@string/text_style_optional"
+            app:layout_constraintStart_toStartOf="@+id/radioGrou_txtColor"
+            app:layout_constraintTop_toBottomOf="@+id/radioGrou_txtColor" />
+
+        <Switch
+            android:id="@+id/style_switch"
+            style="@style/wrap_heigh_width.switch"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_style_text" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

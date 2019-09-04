@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.vasshayden_aidce08.MainActivity">
+
+
+    <item
+        android:id="@+id/form_add_munster"
+        android:title="@string/add"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_save_white24dp"
+        />
+
+    <item
+        android:id="@+id/form_delete"
+        android:title="@string/add"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_delete_forever"
+        />
+
+    <item
+        android:id="@+id/form_add_share"
+        android:title="@string/add"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_share"
+        />
+
+</menu>

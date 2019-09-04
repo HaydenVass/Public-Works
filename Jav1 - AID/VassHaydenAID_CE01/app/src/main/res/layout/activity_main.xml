@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="102dp">
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="0dp"
+                    android:layout_height="73dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/todo"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/img1" />
+
+                <TextView
+                    android:id="@+id/my_Name1"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:gravity="end"
+                    android:text="@string/hayden_vass"
+                    android:textColor="@color/gray"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/BIRTHDAY1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:text="@string/birthtdayText"
+                android:textColor="@color/gray"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+
+            <TextView
+                android:id="@+id/my_birthday1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:text="@string/march_12"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp">
+
+            <TextView
+                android:id="@+id/HOMETOWN1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:text="@string/hometown"
+                android:textColor="@color/gray"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+
+            <TextView
+                android:id="@+id/my_hometown1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:text="@string/sanford_florida"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+
+            <TextView
+                android:id="@+id/HOBBIES1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:text="@string/hobbies"
+                android:textColor="@color/gray"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/my_hobbies1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:text="@string/my_hobbies"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+
+            <TextView
+                android:id="@+id/BIO1"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:text="@string/bio"
+                android:textColor="@color/gray"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/my_bio1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="@string/my_bio"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/linearButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+
+            android:text="@string/switch_to_constraints" />
+
+
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="84dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/todo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img1" />
+
+        <TextView
+            android:id="@+id/my_Name2"
+            android:layout_width="287dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="end"
+            android:text="@string/hayden_vass"
+            android:textColor="@color/gray"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/BIRTHDAY2"
+            android:layout_width="381dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="@string/birthtdayText"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/my_Name2" />
+
+        <TextView
+            android:id="@+id/my_birthday2"
+            android:layout_width="383dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:text="@string/march_12"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/BIRTHDAY2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/BIRTHDAY2"
+            app:layout_constraintTop_toBottomOf="@+id/BIRTHDAY2" />
+
+        <TextView
+            android:id="@+id/HOMETOWN2"
+            android:layout_width="383dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="17dp"
+            android:layout_weight="1"
+            android:text="@string/hometown"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/my_birthday2"
+            app:layout_constraintStart_toStartOf="@+id/my_birthday2"
+            app:layout_constraintTop_toBottomOf="@+id/my_birthday2" />
+
+        <TextView
+            android:id="@+id/my_hometown2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_weight="1"
+            android:text="@string/sanford_florida"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/HOMETOWN2"
+            app:layout_constraintStart_toStartOf="@+id/HOMETOWN2"
+            app:layout_constraintTop_toBottomOf="@+id/HOMETOWN2" />
+
+        <TextView
+            android:id="@+id/HOBBIES2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:text="@string/hobbies"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/my_hometown2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/my_hometown2"
+            app:layout_constraintTop_toBottomOf="@+id/my_hometown2" />
+
+        <TextView
+            android:id="@+id/my_hobbies2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:text="@string/my_hobbies"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/HOBBIES2"
+            app:layout_constraintStart_toStartOf="@+id/HOBBIES2"
+            app:layout_constraintTop_toBottomOf="@+id/HOBBIES2" />
+
+        <TextView
+            android:id="@+id/BIO2"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="9dp"
+            android:layout_weight="1"
+            android:text="@string/bio"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/my_hobbies2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/my_hobbies2"
+            app:layout_constraintTop_toBottomOf="@+id/my_hobbies2" />
+
+
+        <TextView
+            android:id="@+id/my_bio2"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1"
+            android:text="@string/my_bio"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="@+id/BIO2"
+            app:layout_constraintTop_toBottomOf="@+id/BIO2" />
+
+
+        <Button
+            android:id="@+id/constraintButton"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/switch_to_linear"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/my_bio2" />
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

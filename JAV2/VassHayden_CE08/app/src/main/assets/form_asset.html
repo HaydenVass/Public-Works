@@ -1,0 +1,22 @@
+<html>
+
+<script>
+parseStudentForm = function(event){
+    Android.saveStudent(document.forms["nameForm"]["nameText"].value,
+    document.forms["nameForm"]["studentNumber"].value,
+    document.forms["nameForm"]["homeTown"].value)
+};
+</script>
+<form name= "nameForm" onsubmit="return parseStudentForm()">
+    <p></p>
+    <h5>Enter Name:</h5>
+    <input type="text" name="nameText" style="font-size: 18pt"/>
+    <h5>Enter Student Number:</h5>
+    <input type="number" name="studentNumber" style="font-size: 18pt"/>
+    <p></p>
+    <h5>Enter Home Town:</h5>
+    <input type="text" name="homeTown" style="font-size: 18pt"/>
+    <p></p>
+    <input type="submit" name="Submit" value="Save" style="font-size: 18pt"/>
+</form>
+</html>

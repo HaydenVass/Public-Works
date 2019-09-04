@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/MediumSeaGreen</item>
+        <item name="colorPrimaryDark">@color/MediumSeaGreenDark</item>
+        <item name="colorAccent">@color/Tomato</item>
+    </style>
+    <!-- both -->
+
+    <style name="changing_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/text_appears_here</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <!-- portrait -->
+    <style name="wrap_heigh_width">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wrap_heigh_width.frame_layout_portrait">
+        <item name="android:layout_marginStart">106dp</item>
+        <item name="android:layout_marginEnd">106dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+
+    <style name="wrap_heigh_width.labels">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:text">@string/background_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="wrap_heigh_width.radio_groups">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="wrap_heigh_width.switch">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:text">@string/bold_txts</item>
+    </style>
+
+    <!-- landscape -->
+
+    <style name="wrap_heigh_width.frame_layout_landscape">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="wrap_heigh_width.labels.landscape">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+</resources>

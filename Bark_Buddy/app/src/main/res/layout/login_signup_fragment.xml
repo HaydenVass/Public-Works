@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:textSize="45sp"
+        android:textColor="@color/cardview_light_background"
+        android:background="@color/colorPrimary"
+        android:gravity="center|bottom"
+        android:text="@string/bark_buddy" />
+
+    <EditText
+        android:id="@+id/editText_e_mail"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:ems="10"
+        android:gravity="bottom"
+        android:hint="@string/enter_email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_pword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/enterpword"/>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in" />
+
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signup" />
+</LinearLayout>

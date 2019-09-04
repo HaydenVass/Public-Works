@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Khaki">#F0E68C</color>
+    <color name="Lavender">#E6E6FA</color>
+    <color name="Azure">#F0FFFF</color>
+    <color name="IndianRed">#CD5C5C</color>
+    <color name="IndianRedDark">#af403f</color>
+    <color name="LightSteelBlue">#B0C4DE</color>
+    <color name="maroon">#800000</color>
+    <color name="DarkKhaki">#BDB76B</color>
+    <color name="SaddleBrown">#8B4513</color>
+    <color name="ForestGreen">#228B22</color>
+    <color name="MidnightBlue">#191970</color>
+
+</resources>

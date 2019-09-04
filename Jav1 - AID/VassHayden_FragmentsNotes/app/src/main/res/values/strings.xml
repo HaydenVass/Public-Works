@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VassHayden_FragmentsNotes</string>
+    <string-array name="android_versions">
+        <item name="oreo">Oreo</item>
+        <item name="pie">Pie</item>
+        <item name="q">Q</item>
+    </string-array>
+
+    <string-array name="fragment_list">
+        <item name="main_fragment">Main Fragment</item>
+        <item name="list_fragment">List Fragment</item>
+    </string-array>
+</resources>

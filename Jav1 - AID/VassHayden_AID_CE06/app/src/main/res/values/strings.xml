@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VassHayden_AID_CE06</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="add">Add</string>
+    <string name="back">Back</string>
+    <string name="no_empty">Please ensure no text fields were left empty.</string>
+    <string name="no_data_to_show">No data to show. Press the add button to add you contacts.</string>
+</resources>

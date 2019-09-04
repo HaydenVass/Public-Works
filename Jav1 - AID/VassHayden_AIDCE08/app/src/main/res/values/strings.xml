@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VassHayden_AIDCE08</string>
+    <string name="no_monsters_yet_add_one">No monsters yet. Add one!</string>
+    <string name="monster_name">Monster Name</string>
+    <string name="yes_no">Yes / No</string>
+    <string name="monster_has_fur">Monster Has Fur</string>
+    <string name="number_of_legs">Number of Legs</string>
+    <string name="add">add</string>
+    <string name="title_activity_form">FormActivity</string>
+</resources>

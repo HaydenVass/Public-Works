@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VassHayden_CE02</string>
+    <string name="musicplaying">Music is Playing</string>
+    <string name="expand_text">click to re-open App - Expand for controls.</string>
+    <string name="loop">Loop</string>
+    <string name="shuffle">Shuffle</string>
+
+
+</resources>

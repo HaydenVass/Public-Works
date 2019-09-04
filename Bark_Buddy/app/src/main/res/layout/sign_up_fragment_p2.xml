@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText_dog_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/enter_your_dogs_name" />
+
+    <EditText
+        android:id="@+id/editText_dog_breed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/enter_breed_to_the_best_of_your_ability" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="@string/enter_your_dogs_energy_level" />
+
+    <Spinner
+        android:id="@+id/spinner_energy_level"
+        android:layout_width="match_parent"
+        android:entries="@array/energy_levels"
+        android:layout_height="55dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/enter_your_dogs_approx_weight" />
+
+    <Spinner
+        android:id="@+id/spinner_weighjt"
+        android:layout_width="match_parent"
+        android:entries="@array/weight_range"
+        android:layout_height="55dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView_vacs"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_image_black_24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/before_moving_on_please_upload_an_image_of_your_pets_most_recent_vaccination_records" />
+
+    <Button
+        android:id="@+id/button_next2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next" />
+
+</LinearLayout>

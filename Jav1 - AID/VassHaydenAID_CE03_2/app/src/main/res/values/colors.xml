@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple">#800080</color>
+    <color name="green">#008000</color>
+    <color name="black">#000000</color>
+    <color name="MediumSeaGreen">#3CB371</color>
+    <color name="MediumSeaGreenDark">#008245</color>
+    <color name="Tomato">#FF6347</color>
+</resources>

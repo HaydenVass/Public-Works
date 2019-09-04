@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/registerText"
+        style="@style/registrationFormBase"
+        android:layout_width="339dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:inputType="textPersonName"
+        android:text="username@text.com"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/registerText2"
+        style="@style/registrationFormBase"
+        android:layout_width="339dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:hint="password"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/registerText"
+        app:layout_constraintStart_toStartOf="@+id/registerText"
+        app:layout_constraintTop_toBottomOf="@+id/registerText" />
+
+    <EditText
+        android:id="@+id/registerText3"
+        style="@style/registrationFormBase"
+        android:layout_width="339dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:hint="password"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/registerText2"
+        app:layout_constraintStart_toStartOf="@+id/registerText2"
+        app:layout_constraintTop_toBottomOf="@+id/registerText2" />
+
+    <Button
+        android:theme="@style/registerButton"
+        android:id="@+id/button3"
+        android:layout_width="259dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/registerText3"
+        app:layout_constraintStart_toStartOf="@+id/registerText3"
+        app:layout_constraintTop_toBottomOf="@+id/registerText3" />
+
+    <Button
+        android:theme="@style/cancelButton"
+        android:id="@+id/button4"
+        android:layout_width="262dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+</android.support.constraint.ConstraintLayout>
