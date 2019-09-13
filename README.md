@@ -48,3 +48,9 @@ MDF3
         
 Bark Buddy
     - A social application focused around setting up dog events. Uses geo location to provide users with events in their area. This was a solo project that was accomplished in approxamately a week and a half. Back end architecture was built in Google Firestore. 
+
+iOS
+
+RPS 
+    - quick rock paper scissors game that utalises peer to peer connectifity
+Memory game
