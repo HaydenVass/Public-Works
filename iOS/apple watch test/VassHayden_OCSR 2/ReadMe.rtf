@@ -1,0 +1,55 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c100000;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0\fs24 \cf0 \ul \ulc0 HaydenVass\
+P5-1905\
+\
+Read Me:\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf0 \ulnone \
+Orange Country Surf Report is a dynamic way for surfers to check the surf conditions in, as the name suggest, Orange County California. In its current state, all the applications features have been implemented. This means that users can quickly and easily gain a general idea of how surf conditions are in the Pacific Ocean, relative to Orange County. Users are able to get data about swell size, ocean temperature as well as tide and wind conditions. This is done by simply using the respective button to view the desired data.\
+\
+While these features are complete, it needs to be mentioned that the initial API call to each data set can be lagged. Upon viewing the logs, the initial call results in an error, then tries again and works. Supplementary calls afterward fire off with little to no down time. This is true for each data set as they all have an unique API call. This is also true for passing favorited beaches to the watch as an API called is used to get the names for the beaches. \
+\
+ Users are also able to see a map of all the spots along the Orange County coast on their phone. This map allows users to click on a spot and receive an instant spot forecast. This forecast is more specific to the actual beach. Users are also able to favorite a beach. The app saves their favorited beaches and allows them quickly access their forecast on the attached wearable device. While this feature is fully functional, the table view on the wearable will not update in real time. This means that if the user adds a favorite while that part of the app is open on the phone, the new changes won\'92t show until they navigate out and back into their favorites. \
+\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf0 \ul Outline:\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf0 \ulnone \
+Known bugs / Testing Considerations:\
+-app requires internet\
+\pard\pardeftab720\li420\fi-360\ri0\partightenfactor0
+\ls1\ilvl0\cf0 -Initial API calls are slow. This is true for each data set as they all touch different APIS.\
+-Loading favorites from user defaults can be lagged because it also requires an API call. This can result in the users favorites not populating immediately. So a user might navigate to their favorites page before they populate and will have to add a favorite to force a new call or wait for the initial call to finish. \
+-No way to modify favorites list. \
+-Favorites are stored in system defaults, so they are specific to device\
+-Table view of favorites on watch wont update real time if favorites are added from the phone and the user has their favorites opened on their watch. The user currently needs to navigate out and back in to their favorites to see the updates.\
+\pard\pardeftab720\li420\ri0\partightenfactor0
+\cf0 \
+\pard\pardeftab720\ri0\partightenfactor0
+\cf0 \
+Tested Devices: \
+\pard\pardeftab720\li420\fi-360\ri0\partightenfactor0
+\ls2\ilvl0\cf0 -iPhone Xs Max with Apple Watch series 4 \'96 44 mm.\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf0 \
+\pard\pardeftab720\li60\ri0\partightenfactor0
+\cf0 Repo:\
+\pard\pardeftab720\li420\fi-360\ri0\partightenfactor0
+\ls3\ilvl0\cf2 -{\field{\*\fldinst{HYPERLINK "%22"}}{\fldrslt 
+\f1 \ul https://github.com/HaydenVass/OCSR}}
+\f1 \cf0 \
+\pard\pardeftab720\li60\ri0\partightenfactor0
+
+\f0 \cf0 \
+}

@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54003A8C229CAA3200B8AB18 /* UIElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54003A8B229CAA3200B8AB18 /* UIElements.swift */; };
+		542CDBAC229470DE000CE8AD /* BeachSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542CDBAB229470DE000CE8AD /* BeachSpot.swift */; };
+		542CDBAE22947298000CE8AD /* getSpotsAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542CDBAD22947298000CE8AD /* getSpotsAsync.swift */; };
+		543C8C4B229C6AA3006CBF16 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543C8C4A229C6AA3006CBF16 /* LocationManager.swift */; };
+		543C8C4E229C6AC4006CBF16 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543C8C4D229C6AC4006CBF16 /* MapKit.framework */; };
+		543E6F562291AADB00A890E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E6F552291AADB00A890E4 /* AppDelegate.swift */; };
+		543E6F582291AADB00A890E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E6F572291AADB00A890E4 /* ViewController.swift */; };
+		543E6F5B2291AADB00A890E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543E6F592291AADB00A890E4 /* Main.storyboard */; };
+		543E6F5D2291AADD00A890E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543E6F5C2291AADD00A890E4 /* Assets.xcassets */; };
+		543E6F602291AADD00A890E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543E6F5E2291AADD00A890E4 /* LaunchScreen.storyboard */; };
+		543E6F652291AADD00A890E4 /* VassHayden_OCSR WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 543E6F642291AADD00A890E4 /* VassHayden_OCSR WatchKit App.app */; };
+		543E6F6B2291AADD00A890E4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543E6F692291AADD00A890E4 /* Interface.storyboard */; };
+		543E6F6D2291AADD00A890E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543E6F6C2291AADD00A890E4 /* Assets.xcassets */; };
+		543E6F742291AADD00A890E4 /* VassHayden_OCSR WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 543E6F732291AADD00A890E4 /* VassHayden_OCSR WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		543E6F792291AADD00A890E4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E6F782291AADD00A890E4 /* InterfaceController.swift */; };
+		543E6F7B2291AADD00A890E4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E6F7A2291AADD00A890E4 /* ExtensionDelegate.swift */; };
+		543E6F7D2291AADD00A890E4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E6F7C2291AADD00A890E4 /* NotificationController.swift */; };
+		543E6F7F2291AADE00A890E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543E6F7E2291AADE00A890E4 /* Assets.xcassets */; };
+		543E6F90229202FA00A890E4 /* apiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E6F8F229202FA00A890E4 /* apiCall.swift */; };
+		543E6F942292474A00A890E4 /* SwellDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E6F932292474A00A890E4 /* SwellDetails.swift */; };
+		543E6F962292ECE000A890E4 /* SwellReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E6F952292ECE000A890E4 /* SwellReport.swift */; };
+		543E6F992292FE2C00A890E4 /* windAPICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E6F982292FE2C00A890E4 /* windAPICall.swift */; };
+		543E6F9C2293022E00A890E4 /* WindReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E6F9B2293022E00A890E4 /* WindReport.swift */; };
+		543E6F9E229303A800A890E4 /* WindDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E6F9D229303A800A890E4 /* WindDetails.swift */; };
+		543E6FA02293061B00A890E4 /* tempAPICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E6F9F2293061B00A890E4 /* tempAPICall.swift */; };
+		543E6FA3229309E000A890E4 /* TempDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E6FA2229309E000A890E4 /* TempDetails.swift */; };
+		543E6FA5229315D000A890E4 /* TideAPICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E6FA4229315D000A890E4 /* TideAPICall.swift */; };
+		543E6FA8229317B800A890E4 /* TideDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E6FA7229317B800A890E4 /* TideDetails.swift */; };
+		548315A2229D6143005F6DE9 /* SpotDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548315A1229D6143005F6DE9 /* SpotDetails.swift */; };
+		548315A4229D68FC005F6DE9 /* GetFavoriteDetailsAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548315A3229D68FC005F6DE9 /* GetFavoriteDetailsAsync.swift */; };
+		548315AD229D856B005F6DE9 /* SpotDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548315A1229D6143005F6DE9 /* SpotDetails.swift */; };
+		548315AF229D9F44005F6DE9 /* GetSpotNameAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548315AE229D9F44005F6DE9 /* GetSpotNameAsync.swift */; };
+		548315B1229DA233005F6DE9 /* TableInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548315B0229DA233005F6DE9 /* TableInterfaceController.swift */; };
+		548315B4229DAAC6005F6DE9 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548315B3229DAAC6005F6DE9 /* Cell.swift */; };
+		548315B6229DB105005F6DE9 /* getSpotForecastAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54003A89229C855C00B8AB18 /* getSpotForecastAsync.swift */; };
+		548315B8229DB13A005F6DE9 /* TableViewDetailsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548315B7229DB13A005F6DE9 /* TableViewDetailsInterfaceController.swift */; };
+		548315BE229DB223005F6DE9 /* TableViewDetailsAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548315BD229DB223005F6DE9 /* TableViewDetailsAsync.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		543E6F662291AADD00A890E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543E6F4A2291AADB00A890E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543E6F632291AADD00A890E4;
+			remoteInfo = "VassHayden_OCSR WatchKit App";
+		};
+		543E6F752291AADD00A890E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543E6F4A2291AADB00A890E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543E6F722291AADD00A890E4;
+			remoteInfo = "VassHayden_OCSR WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		543E6F872291AADE00A890E4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				543E6F742291AADD00A890E4 /* VassHayden_OCSR WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543E6F8B2291AADE00A890E4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				543E6F652291AADD00A890E4 /* VassHayden_OCSR WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		54003A89229C855C00B8AB18 /* getSpotForecastAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getSpotForecastAsync.swift; sourceTree = "<group>"; };
+		54003A8B229CAA3200B8AB18 /* UIElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElements.swift; sourceTree = "<group>"; };
+		542CDBAB229470DE000CE8AD /* BeachSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachSpot.swift; sourceTree = "<group>"; };
+		542CDBAD22947298000CE8AD /* getSpotsAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getSpotsAsync.swift; sourceTree = "<group>"; };
+		543C8C4A229C6AA3006CBF16 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		543C8C4D229C6AC4006CBF16 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		543E6F522291AADB00A890E4 /* VassHayden_OCSR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VassHayden_OCSR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		543E6F552291AADB00A890E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		543E6F572291AADB00A890E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		543E6F5A2291AADB00A890E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		543E6F5C2291AADD00A890E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		543E6F5F2291AADD00A890E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		543E6F612291AADD00A890E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		543E6F642291AADD00A890E4 /* VassHayden_OCSR WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VassHayden_OCSR WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		543E6F6A2291AADD00A890E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		543E6F6C2291AADD00A890E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		543E6F6E2291AADD00A890E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		543E6F732291AADD00A890E4 /* VassHayden_OCSR WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "VassHayden_OCSR WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		543E6F782291AADD00A890E4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		543E6F7A2291AADD00A890E4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		543E6F7C2291AADD00A890E4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		543E6F7E2291AADE00A890E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		543E6F802291AADE00A890E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		543E6F812291AADE00A890E4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		543E6F8F229202FA00A890E4 /* apiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiCall.swift; sourceTree = "<group>"; };
+		543E6F932292474A00A890E4 /* SwellDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwellDetails.swift; sourceTree = "<group>"; };
+		543E6F952292ECE000A890E4 /* SwellReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwellReport.swift; sourceTree = "<group>"; };
+		543E6F982292FE2C00A890E4 /* windAPICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = windAPICall.swift; sourceTree = "<group>"; };
+		543E6F9B2293022E00A890E4 /* WindReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindReport.swift; sourceTree = "<group>"; };
+		543E6F9D229303A800A890E4 /* WindDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindDetails.swift; sourceTree = "<group>"; };
+		543E6F9F2293061B00A890E4 /* tempAPICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempAPICall.swift; sourceTree = "<group>"; };
+		543E6FA2229309E000A890E4 /* TempDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempDetails.swift; sourceTree = "<group>"; };
+		543E6FA4229315D000A890E4 /* TideAPICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideAPICall.swift; sourceTree = "<group>"; };
+		543E6FA7229317B800A890E4 /* TideDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideDetails.swift; sourceTree = "<group>"; };
+		548315A1229D6143005F6DE9 /* SpotDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetails.swift; sourceTree = "<group>"; };
+		548315A3229D68FC005F6DE9 /* GetFavoriteDetailsAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFavoriteDetailsAsync.swift; sourceTree = "<group>"; };
+		548315AE229D9F44005F6DE9 /* GetSpotNameAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSpotNameAsync.swift; sourceTree = "<group>"; };
+		548315B0229DA233005F6DE9 /* TableInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableInterfaceController.swift; sourceTree = "<group>"; };
+		548315B3229DAAC6005F6DE9 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		548315B7229DB13A005F6DE9 /* TableViewDetailsInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDetailsInterfaceController.swift; sourceTree = "<group>"; };
+		548315BD229DB223005F6DE9 /* TableViewDetailsAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDetailsAsync.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		543E6F4F2291AADB00A890E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543C8C4E229C6AC4006CBF16 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543E6F702291AADD00A890E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54003A88229C854300B8AB18 /* async_task */ = {
+			isa = PBXGroup;
+			children = (
+				542CDBAD22947298000CE8AD /* getSpotsAsync.swift */,
+				54003A89229C855C00B8AB18 /* getSpotForecastAsync.swift */,
+				548315A3229D68FC005F6DE9 /* GetFavoriteDetailsAsync.swift */,
+			);
+			path = async_task;
+			sourceTree = "<group>";
+		};
+		543C8C4C229C6AC3006CBF16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				543C8C4D229C6AC4006CBF16 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		543E6F492291AADB00A890E4 = {
+			isa = PBXGroup;
+			children = (
+				543E6F542291AADB00A890E4 /* VassHayden_OCSR */,
+				543E6F682291AADD00A890E4 /* VassHayden_OCSR WatchKit App */,
+				543E6F772291AADD00A890E4 /* VassHayden_OCSR WatchKit Extension */,
+				543E6F532291AADB00A890E4 /* Products */,
+				543C8C4C229C6AC3006CBF16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		543E6F532291AADB00A890E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				543E6F522291AADB00A890E4 /* VassHayden_OCSR.app */,
+				543E6F642291AADD00A890E4 /* VassHayden_OCSR WatchKit App.app */,
+				543E6F732291AADD00A890E4 /* VassHayden_OCSR WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		543E6F542291AADB00A890E4 /* VassHayden_OCSR */ = {
+			isa = PBXGroup;
+			children = (
+				543E6F592291AADB00A890E4 /* Main.storyboard */,
+				543E6F552291AADB00A890E4 /* AppDelegate.swift */,
+				543E6F572291AADB00A890E4 /* ViewController.swift */,
+				54003A8B229CAA3200B8AB18 /* UIElements.swift */,
+				543E6F5C2291AADD00A890E4 /* Assets.xcassets */,
+				543E6F5E2291AADD00A890E4 /* LaunchScreen.storyboard */,
+				543E6F612291AADD00A890E4 /* Info.plist */,
+				543C8C4A229C6AA3006CBF16 /* LocationManager.swift */,
+				54003A88229C854300B8AB18 /* async_task */,
+				548315A0229D611B005F6DE9 /* objects */,
+			);
+			path = VassHayden_OCSR;
+			sourceTree = "<group>";
+		};
+		543E6F682291AADD00A890E4 /* VassHayden_OCSR WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				543E6F692291AADD00A890E4 /* Interface.storyboard */,
+				543E6F6C2291AADD00A890E4 /* Assets.xcassets */,
+				543E6F6E2291AADD00A890E4 /* Info.plist */,
+			);
+			path = "VassHayden_OCSR WatchKit App";
+			sourceTree = "<group>";
+		};
+		543E6F772291AADD00A890E4 /* VassHayden_OCSR WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				543E6F782291AADD00A890E4 /* InterfaceController.swift */,
+				548315BA229DB1F3005F6DE9 /* TableViewDetails */,
+				548315B2229DAA68005F6DE9 /* TableView */,
+				543E6FA6229315D400A890E4 /* Tide */,
+				543E6FA12293062300A890E4 /* Tempurature */,
+				543E6F9A2292FE3100A890E4 /* Wind */,
+				543E6F972292FDC200A890E4 /* Swells */,
+				543E6F7A2291AADD00A890E4 /* ExtensionDelegate.swift */,
+				543E6F7C2291AADD00A890E4 /* NotificationController.swift */,
+				543E6F7E2291AADE00A890E4 /* Assets.xcassets */,
+				543E6F802291AADE00A890E4 /* Info.plist */,
+				543E6F812291AADE00A890E4 /* PushNotificationPayload.apns */,
+			);
+			path = "VassHayden_OCSR WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		543E6F972292FDC200A890E4 /* Swells */ = {
+			isa = PBXGroup;
+			children = (
+				543E6F8F229202FA00A890E4 /* apiCall.swift */,
+				543E6F952292ECE000A890E4 /* SwellReport.swift */,
+				543E6F932292474A00A890E4 /* SwellDetails.swift */,
+			);
+			path = Swells;
+			sourceTree = "<group>";
+		};
+		543E6F9A2292FE3100A890E4 /* Wind */ = {
+			isa = PBXGroup;
+			children = (
+				543E6F982292FE2C00A890E4 /* windAPICall.swift */,
+				543E6F9B2293022E00A890E4 /* WindReport.swift */,
+				543E6F9D229303A800A890E4 /* WindDetails.swift */,
+			);
+			path = Wind;
+			sourceTree = "<group>";
+		};
+		543E6FA12293062300A890E4 /* Tempurature */ = {
+			isa = PBXGroup;
+			children = (
+				543E6F9F2293061B00A890E4 /* tempAPICall.swift */,
+				543E6FA2229309E000A890E4 /* TempDetails.swift */,
+			);
+			path = Tempurature;
+			sourceTree = "<group>";
+		};
+		543E6FA6229315D400A890E4 /* Tide */ = {
+			isa = PBXGroup;
+			children = (
+				543E6FA4229315D000A890E4 /* TideAPICall.swift */,
+				543E6FA7229317B800A890E4 /* TideDetails.swift */,
+			);
+			path = Tide;
+			sourceTree = "<group>";
+		};
+		548315A0229D611B005F6DE9 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				542CDBAB229470DE000CE8AD /* BeachSpot.swift */,
+				548315A1229D6143005F6DE9 /* SpotDetails.swift */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		548315B2229DAA68005F6DE9 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				548315AE229D9F44005F6DE9 /* GetSpotNameAsync.swift */,
+				548315B0229DA233005F6DE9 /* TableInterfaceController.swift */,
+				548315B3229DAAC6005F6DE9 /* Cell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		548315BA229DB1F3005F6DE9 /* TableViewDetails */ = {
+			isa = PBXGroup;
+			children = (
+				548315B7229DB13A005F6DE9 /* TableViewDetailsInterfaceController.swift */,
+				548315BD229DB223005F6DE9 /* TableViewDetailsAsync.swift */,
+			);
+			path = TableViewDetails;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		543E6F512291AADB00A890E4 /* VassHayden_OCSR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543E6F8C2291AADE00A890E4 /* Build configuration list for PBXNativeTarget "VassHayden_OCSR" */;
+			buildPhases = (
+				543E6F4E2291AADB00A890E4 /* Sources */,
+				543E6F4F2291AADB00A890E4 /* Frameworks */,
+				543E6F502291AADB00A890E4 /* Resources */,
+				543E6F8B2291AADE00A890E4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543E6F672291AADD00A890E4 /* PBXTargetDependency */,
+			);
+			name = VassHayden_OCSR;
+			productName = VassHayden_OCSR;
+			productReference = 543E6F522291AADB00A890E4 /* VassHayden_OCSR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		543E6F632291AADD00A890E4 /* VassHayden_OCSR WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543E6F882291AADE00A890E4 /* Build configuration list for PBXNativeTarget "VassHayden_OCSR WatchKit App" */;
+			buildPhases = (
+				543E6F622291AADD00A890E4 /* Resources */,
+				543E6F872291AADE00A890E4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543E6F762291AADD00A890E4 /* PBXTargetDependency */,
+			);
+			name = "VassHayden_OCSR WatchKit App";
+			productName = "VassHayden_OCSR WatchKit App";
+			productReference = 543E6F642291AADD00A890E4 /* VassHayden_OCSR WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		543E6F722291AADD00A890E4 /* VassHayden_OCSR WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543E6F842291AADE00A890E4 /* Build configuration list for PBXNativeTarget "VassHayden_OCSR WatchKit Extension" */;
+			buildPhases = (
+				543E6F6F2291AADD00A890E4 /* Sources */,
+				543E6F702291AADD00A890E4 /* Frameworks */,
+				543E6F712291AADD00A890E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VassHayden_OCSR WatchKit Extension";
+			productName = "VassHayden_OCSR WatchKit Extension";
+			productReference = 543E6F732291AADD00A890E4 /* VassHayden_OCSR WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		543E6F4A2291AADB00A890E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Hayden Vass";
+				TargetAttributes = {
+					543E6F512291AADB00A890E4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					543E6F632291AADD00A890E4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					543E6F722291AADD00A890E4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 543E6F4D2291AADB00A890E4 /* Build configuration list for PBXProject "VassHayden_OCSR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 543E6F492291AADB00A890E4;
+			productRefGroup = 543E6F532291AADB00A890E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				543E6F512291AADB00A890E4 /* VassHayden_OCSR */,
+				543E6F632291AADD00A890E4 /* VassHayden_OCSR WatchKit App */,
+				543E6F722291AADD00A890E4 /* VassHayden_OCSR WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		543E6F502291AADB00A890E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543E6F602291AADD00A890E4 /* LaunchScreen.storyboard in Resources */,
+				543E6F5D2291AADD00A890E4 /* Assets.xcassets in Resources */,
+				543E6F5B2291AADB00A890E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543E6F622291AADD00A890E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543E6F6D2291AADD00A890E4 /* Assets.xcassets in Resources */,
+				543E6F6B2291AADD00A890E4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543E6F712291AADD00A890E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543E6F7F2291AADE00A890E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		543E6F4E2291AADB00A890E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543E6F582291AADB00A890E4 /* ViewController.swift in Sources */,
+				543C8C4B229C6AA3006CBF16 /* LocationManager.swift in Sources */,
+				542CDBAE22947298000CE8AD /* getSpotsAsync.swift in Sources */,
+				543E6F562291AADB00A890E4 /* AppDelegate.swift in Sources */,
+				54003A8C229CAA3200B8AB18 /* UIElements.swift in Sources */,
+				548315B6229DB105005F6DE9 /* getSpotForecastAsync.swift in Sources */,
+				548315A2229D6143005F6DE9 /* SpotDetails.swift in Sources */,
+				548315A4229D68FC005F6DE9 /* GetFavoriteDetailsAsync.swift in Sources */,
+				542CDBAC229470DE000CE8AD /* BeachSpot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543E6F6F2291AADD00A890E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548315BE229DB223005F6DE9 /* TableViewDetailsAsync.swift in Sources */,
+				548315AD229D856B005F6DE9 /* SpotDetails.swift in Sources */,
+				543E6F942292474A00A890E4 /* SwellDetails.swift in Sources */,
+				543E6F9E229303A800A890E4 /* WindDetails.swift in Sources */,
+				543E6F9C2293022E00A890E4 /* WindReport.swift in Sources */,
+				543E6F992292FE2C00A890E4 /* windAPICall.swift in Sources */,
+				548315B4229DAAC6005F6DE9 /* Cell.swift in Sources */,
+				543E6F7D2291AADD00A890E4 /* NotificationController.swift in Sources */,
+				548315B1229DA233005F6DE9 /* TableInterfaceController.swift in Sources */,
+				543E6F7B2291AADD00A890E4 /* ExtensionDelegate.swift in Sources */,
+				548315AF229D9F44005F6DE9 /* GetSpotNameAsync.swift in Sources */,
+				548315B8229DB13A005F6DE9 /* TableViewDetailsInterfaceController.swift in Sources */,
+				543E6F90229202FA00A890E4 /* apiCall.swift in Sources */,
+				543E6F792291AADD00A890E4 /* InterfaceController.swift in Sources */,
+				543E6FA8229317B800A890E4 /* TideDetails.swift in Sources */,
+				543E6FA5229315D000A890E4 /* TideAPICall.swift in Sources */,
+				543E6FA3229309E000A890E4 /* TempDetails.swift in Sources */,
+				543E6FA02293061B00A890E4 /* tempAPICall.swift in Sources */,
+				543E6F962292ECE000A890E4 /* SwellReport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		543E6F672291AADD00A890E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543E6F632291AADD00A890E4 /* VassHayden_OCSR WatchKit App */;
+			targetProxy = 543E6F662291AADD00A890E4 /* PBXContainerItemProxy */;
+		};
+		543E6F762291AADD00A890E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543E6F722291AADD00A890E4 /* VassHayden_OCSR WatchKit Extension */;
+			targetProxy = 543E6F752291AADD00A890E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		543E6F592291AADB00A890E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				543E6F5A2291AADB00A890E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		543E6F5E2291AADD00A890E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				543E6F5F2291AADD00A890E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		543E6F692291AADD00A890E4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				543E6F6A2291AADD00A890E4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		543E6F822291AADE00A890E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		543E6F832291AADE00A890E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		543E6F852291AADE00A890E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7MC5RMNWH;
+				INFOPLIST_FILE = "VassHayden_OCSR WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDF4.VassHayden-OCSR.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		543E6F862291AADE00A890E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7MC5RMNWH;
+				INFOPLIST_FILE = "VassHayden_OCSR WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDF4.VassHayden-OCSR.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		543E6F892291AADE00A890E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7MC5RMNWH;
+				IBSC_MODULE = VassHayden_OCSR_WatchKit_Extension;
+				INFOPLIST_FILE = "VassHayden_OCSR WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "MDF4.VassHayden-OCSR.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		543E6F8A2291AADE00A890E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7MC5RMNWH;
+				IBSC_MODULE = VassHayden_OCSR_WatchKit_Extension;
+				INFOPLIST_FILE = "VassHayden_OCSR WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "MDF4.VassHayden-OCSR.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		543E6F8D2291AADE00A890E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7MC5RMNWH;
+				INFOPLIST_FILE = VassHayden_OCSR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDF4.VassHayden-OCSR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		543E6F8E2291AADE00A890E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7MC5RMNWH;
+				INFOPLIST_FILE = VassHayden_OCSR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDF4.VassHayden-OCSR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		543E6F4D2291AADB00A890E4 /* Build configuration list for PBXProject "VassHayden_OCSR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543E6F822291AADE00A890E4 /* Debug */,
+				543E6F832291AADE00A890E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543E6F842291AADE00A890E4 /* Build configuration list for PBXNativeTarget "VassHayden_OCSR WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543E6F852291AADE00A890E4 /* Debug */,
+				543E6F862291AADE00A890E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543E6F882291AADE00A890E4 /* Build configuration list for PBXNativeTarget "VassHayden_OCSR WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543E6F892291AADE00A890E4 /* Debug */,
+				543E6F8A2291AADE00A890E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543E6F8C2291AADE00A890E4 /* Build configuration list for PBXNativeTarget "VassHayden_OCSR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543E6F8D2291AADE00A890E4 /* Debug */,
+				543E6F8E2291AADE00A890E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 543E6F4A2291AADB00A890E4 /* Project object */;
+}

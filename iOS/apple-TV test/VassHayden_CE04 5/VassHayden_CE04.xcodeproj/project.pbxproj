@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54BEB59D229781C80079EE63 /* willie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB58E229781C80079EE63 /* willie.jpg */; };
+		54BEB59E229781C80079EE63 /* willie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB58E229781C80079EE63 /* willie.jpg */; };
+		54BEB59F229781C80079EE63 /* plant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB58F229781C80079EE63 /* plant.jpg */; };
+		54BEB5A0229781C80079EE63 /* plant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB58F229781C80079EE63 /* plant.jpg */; };
+		54BEB5A1229781C80079EE63 /* clapton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB590229781C80079EE63 /* clapton.jpg */; };
+		54BEB5A2229781C80079EE63 /* clapton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB590229781C80079EE63 /* clapton.jpg */; };
+		54BEB5A3229781C80079EE63 /* robert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB591229781C80079EE63 /* robert.jpg */; };
+		54BEB5A4229781C80079EE63 /* robert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB591229781C80079EE63 /* robert.jpg */; };
+		54BEB5A5229781C80079EE63 /* waylon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB592229781C80079EE63 /* waylon.jpg */; };
+		54BEB5A6229781C80079EE63 /* waylon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB592229781C80079EE63 /* waylon.jpg */; };
+		54BEB5A7229781C80079EE63 /* ozzy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB593229781C80079EE63 /* ozzy.jpg */; };
+		54BEB5A8229781C80079EE63 /* ozzy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB593229781C80079EE63 /* ozzy.jpg */; };
+		54BEB5A9229781C80079EE63 /* merele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB594229781C80079EE63 /* merele.jpg */; };
+		54BEB5AA229781C80079EE63 /* merele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB594229781C80079EE63 /* merele.jpg */; };
+		54BEB5AB229781C80079EE63 /* muddy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB595229781C80079EE63 /* muddy.jpg */; };
+		54BEB5AC229781C80079EE63 /* muddy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB595229781C80079EE63 /* muddy.jpg */; };
+		54BEB5AD229781C80079EE63 /* lightnin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB596229781C80079EE63 /* lightnin.jpg */; };
+		54BEB5AE229781C80079EE63 /* lightnin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB596229781C80079EE63 /* lightnin.jpg */; };
+		54BEB5AF229781C80079EE63 /* fogerty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB597229781C80079EE63 /* fogerty.jpg */; };
+		54BEB5B0229781C80079EE63 /* fogerty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB597229781C80079EE63 /* fogerty.jpg */; };
+		54BEB5B1229781C80079EE63 /* RL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB598229781C80079EE63 /* RL.jpg */; };
+		54BEB5B2229781C80079EE63 /* RL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB598229781C80079EE63 /* RL.jpg */; };
+		54BEB5B3229781C80079EE63 /* bbking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB599229781C80079EE63 /* bbking.jpg */; };
+		54BEB5B4229781C80079EE63 /* bbking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB599229781C80079EE63 /* bbking.jpg */; };
+		54BEB5B5229781C80079EE63 /* hank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB59A229781C80079EE63 /* hank.jpg */; };
+		54BEB5B6229781C80079EE63 /* hank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB59A229781C80079EE63 /* hank.jpg */; };
+		54BEB5B7229781C80079EE63 /* kay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB59B229781C80079EE63 /* kay.jpg */; };
+		54BEB5B8229781C80079EE63 /* kay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB59B229781C80079EE63 /* kay.jpg */; };
+		54BEB5B9229781C80079EE63 /* johnny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB59C229781C80079EE63 /* johnny.jpg */; };
+		54BEB5BA229781C80079EE63 /* johnny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54BEB59C229781C80079EE63 /* johnny.jpg */; };
+		54CDE8F422970F7900F512F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CDE8F322970F7900F512F0 /* AppDelegate.swift */; };
+		54CDE8F622970F7900F512F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CDE8F522970F7900F512F0 /* ViewController.swift */; };
+		54CDE8F922970F7900F512F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CDE8F722970F7900F512F0 /* Main.storyboard */; };
+		54CDE8FB22970F7B00F512F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54CDE8FA22970F7B00F512F0 /* Assets.xcassets */; };
+		54CDE9072297147E00F512F0 /* Musician.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CDE9062297147E00F512F0 /* Musician.swift */; };
+		54CDE90B22971CC000F512F0 /* makeObjs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CDE90A22971CC000F512F0 /* makeObjs.swift */; };
+		54CDE90D229730FB00F512F0 /* tvCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CDE90C229730FB00F512F0 /* tvCell.swift */; };
+		54CDE90F22973D2500F512F0 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CDE90E22973D2500F512F0 /* DetailsViewController.swift */; };
+		54CDE94022974E4500F512F0 /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CDE93F22974E4500F512F0 /* TVServices.framework */; };
+		54CDE94322974E4500F512F0 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CDE94222974E4500F512F0 /* ServiceProvider.swift */; };
+		54CDE94722974E4500F512F0 /* TvTopShelfProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 54CDE93D22974E4500F512F0 /* TvTopShelfProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54CDE94522974E4500F512F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54CDE8E822970F7900F512F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54CDE93C22974E4500F512F0;
+			remoteInfo = TvTopShelfProvider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		54CDE94B22974E4500F512F0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				54CDE94722974E4500F512F0 /* TvTopShelfProvider.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		54BEB58E229781C80079EE63 /* willie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = willie.jpg; sourceTree = "<group>"; };
+		54BEB58F229781C80079EE63 /* plant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plant.jpg; sourceTree = "<group>"; };
+		54BEB590229781C80079EE63 /* clapton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clapton.jpg; sourceTree = "<group>"; };
+		54BEB591229781C80079EE63 /* robert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = robert.jpg; sourceTree = "<group>"; };
+		54BEB592229781C80079EE63 /* waylon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waylon.jpg; sourceTree = "<group>"; };
+		54BEB593229781C80079EE63 /* ozzy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ozzy.jpg; sourceTree = "<group>"; };
+		54BEB594229781C80079EE63 /* merele.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = merele.jpg; sourceTree = "<group>"; };
+		54BEB595229781C80079EE63 /* muddy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muddy.jpg; sourceTree = "<group>"; };
+		54BEB596229781C80079EE63 /* lightnin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lightnin.jpg; sourceTree = "<group>"; };
+		54BEB597229781C80079EE63 /* fogerty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fogerty.jpg; sourceTree = "<group>"; };
+		54BEB598229781C80079EE63 /* RL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RL.jpg; sourceTree = "<group>"; };
+		54BEB599229781C80079EE63 /* bbking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bbking.jpg; sourceTree = "<group>"; };
+		54BEB59A229781C80079EE63 /* hank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hank.jpg; sourceTree = "<group>"; };
+		54BEB59B229781C80079EE63 /* kay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kay.jpg; sourceTree = "<group>"; };
+		54BEB59C229781C80079EE63 /* johnny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = johnny.jpg; sourceTree = "<group>"; };
+		54CDE8F022970F7900F512F0 /* VassHayden_CE04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VassHayden_CE04.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54CDE8F322970F7900F512F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54CDE8F522970F7900F512F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54CDE8F822970F7900F512F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54CDE8FA22970F7B00F512F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54CDE8FC22970F7B00F512F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54CDE9062297147E00F512F0 /* Musician.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musician.swift; sourceTree = "<group>"; };
+		54CDE90A22971CC000F512F0 /* makeObjs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeObjs.swift; sourceTree = "<group>"; };
+		54CDE90C229730FB00F512F0 /* tvCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvCell.swift; sourceTree = "<group>"; };
+		54CDE90E22973D2500F512F0 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		54CDE93D22974E4500F512F0 /* TvTopShelfProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TvTopShelfProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		54CDE93F22974E4500F512F0 /* TVServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVServices.framework; path = System/Library/Frameworks/TVServices.framework; sourceTree = SDKROOT; };
+		54CDE94222974E4500F512F0 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		54CDE94422974E4500F512F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54CDE8ED22970F7900F512F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54CDE93A22974E4500F512F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CDE94022974E4500F512F0 /* TVServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54BEB58D229781C80079EE63 /* musicImages */ = {
+			isa = PBXGroup;
+			children = (
+				54BEB58E229781C80079EE63 /* willie.jpg */,
+				54BEB58F229781C80079EE63 /* plant.jpg */,
+				54BEB590229781C80079EE63 /* clapton.jpg */,
+				54BEB591229781C80079EE63 /* robert.jpg */,
+				54BEB592229781C80079EE63 /* waylon.jpg */,
+				54BEB593229781C80079EE63 /* ozzy.jpg */,
+				54BEB594229781C80079EE63 /* merele.jpg */,
+				54BEB595229781C80079EE63 /* muddy.jpg */,
+				54BEB596229781C80079EE63 /* lightnin.jpg */,
+				54BEB597229781C80079EE63 /* fogerty.jpg */,
+				54BEB598229781C80079EE63 /* RL.jpg */,
+				54BEB599229781C80079EE63 /* bbking.jpg */,
+				54BEB59A229781C80079EE63 /* hank.jpg */,
+				54BEB59B229781C80079EE63 /* kay.jpg */,
+				54BEB59C229781C80079EE63 /* johnny.jpg */,
+			);
+			path = musicImages;
+			sourceTree = "<group>";
+		};
+		54CDE8E722970F7900F512F0 = {
+			isa = PBXGroup;
+			children = (
+				54CDE8F222970F7900F512F0 /* VassHayden_CE04 */,
+				54CDE94122974E4500F512F0 /* TvTopShelfProvider */,
+				54CDE93E22974E4500F512F0 /* Frameworks */,
+				54CDE8F122970F7900F512F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54CDE8F122970F7900F512F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54CDE8F022970F7900F512F0 /* VassHayden_CE04.app */,
+				54CDE93D22974E4500F512F0 /* TvTopShelfProvider.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54CDE8F222970F7900F512F0 /* VassHayden_CE04 */ = {
+			isa = PBXGroup;
+			children = (
+				54CDE8F722970F7900F512F0 /* Main.storyboard */,
+				54CDE8F322970F7900F512F0 /* AppDelegate.swift */,
+				54CDE90C229730FB00F512F0 /* tvCell.swift */,
+				54CDE8F522970F7900F512F0 /* ViewController.swift */,
+				54CDE90E22973D2500F512F0 /* DetailsViewController.swift */,
+				54BEB58D229781C80079EE63 /* musicImages */,
+				54CDE90A22971CC000F512F0 /* makeObjs.swift */,
+				54CDE9062297147E00F512F0 /* Musician.swift */,
+				54CDE8FA22970F7B00F512F0 /* Assets.xcassets */,
+				54CDE8FC22970F7B00F512F0 /* Info.plist */,
+			);
+			path = VassHayden_CE04;
+			sourceTree = "<group>";
+		};
+		54CDE93E22974E4500F512F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54CDE93F22974E4500F512F0 /* TVServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54CDE94122974E4500F512F0 /* TvTopShelfProvider */ = {
+			isa = PBXGroup;
+			children = (
+				54CDE94222974E4500F512F0 /* ServiceProvider.swift */,
+				54CDE94422974E4500F512F0 /* Info.plist */,
+			);
+			path = TvTopShelfProvider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54CDE8EF22970F7900F512F0 /* VassHayden_CE04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54CDE8FF22970F7B00F512F0 /* Build configuration list for PBXNativeTarget "VassHayden_CE04" */;
+			buildPhases = (
+				54CDE8EC22970F7900F512F0 /* Sources */,
+				54CDE8ED22970F7900F512F0 /* Frameworks */,
+				54CDE8EE22970F7900F512F0 /* Resources */,
+				54CDE94B22974E4500F512F0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54CDE94622974E4500F512F0 /* PBXTargetDependency */,
+			);
+			name = VassHayden_CE04;
+			productName = VassHayden_CE04;
+			productReference = 54CDE8F022970F7900F512F0 /* VassHayden_CE04.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54CDE93C22974E4500F512F0 /* TvTopShelfProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54CDE94822974E4500F512F0 /* Build configuration list for PBXNativeTarget "TvTopShelfProvider" */;
+			buildPhases = (
+				54CDE93922974E4500F512F0 /* Sources */,
+				54CDE93A22974E4500F512F0 /* Frameworks */,
+				54CDE93B22974E4500F512F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TvTopShelfProvider;
+			productName = TvTopShelfProvider;
+			productReference = 54CDE93D22974E4500F512F0 /* TvTopShelfProvider.appex */;
+			productType = "com.apple.product-type.tv-app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54CDE8E822970F7900F512F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Hayden Vass";
+				TargetAttributes = {
+					54CDE8EF22970F7900F512F0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					54CDE93C22974E4500F512F0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 54CDE8EB22970F7900F512F0 /* Build configuration list for PBXProject "VassHayden_CE04" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54CDE8E722970F7900F512F0;
+			productRefGroup = 54CDE8F122970F7900F512F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54CDE8EF22970F7900F512F0 /* VassHayden_CE04 */,
+				54CDE93C22974E4500F512F0 /* TvTopShelfProvider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54CDE8EE22970F7900F512F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BEB5B1229781C80079EE63 /* RL.jpg in Resources */,
+				54BEB5B5229781C80079EE63 /* hank.jpg in Resources */,
+				54CDE8FB22970F7B00F512F0 /* Assets.xcassets in Resources */,
+				54BEB5AD229781C80079EE63 /* lightnin.jpg in Resources */,
+				54BEB5B9229781C80079EE63 /* johnny.jpg in Resources */,
+				54BEB5AB229781C80079EE63 /* muddy.jpg in Resources */,
+				54CDE8F922970F7900F512F0 /* Main.storyboard in Resources */,
+				54BEB5A1229781C80079EE63 /* clapton.jpg in Resources */,
+				54BEB5A9229781C80079EE63 /* merele.jpg in Resources */,
+				54BEB5A7229781C80079EE63 /* ozzy.jpg in Resources */,
+				54BEB5A3229781C80079EE63 /* robert.jpg in Resources */,
+				54BEB59D229781C80079EE63 /* willie.jpg in Resources */,
+				54BEB5B7229781C80079EE63 /* kay.jpg in Resources */,
+				54BEB5B3229781C80079EE63 /* bbking.jpg in Resources */,
+				54BEB5A5229781C80079EE63 /* waylon.jpg in Resources */,
+				54BEB5AF229781C80079EE63 /* fogerty.jpg in Resources */,
+				54BEB59F229781C80079EE63 /* plant.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54CDE93B22974E4500F512F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BEB59E229781C80079EE63 /* willie.jpg in Resources */,
+				54BEB5AE229781C80079EE63 /* lightnin.jpg in Resources */,
+				54BEB5B0229781C80079EE63 /* fogerty.jpg in Resources */,
+				54BEB5BA229781C80079EE63 /* johnny.jpg in Resources */,
+				54BEB5B8229781C80079EE63 /* kay.jpg in Resources */,
+				54BEB5A8229781C80079EE63 /* ozzy.jpg in Resources */,
+				54BEB5B6229781C80079EE63 /* hank.jpg in Resources */,
+				54BEB5A2229781C80079EE63 /* clapton.jpg in Resources */,
+				54BEB5AC229781C80079EE63 /* muddy.jpg in Resources */,
+				54BEB5B4229781C80079EE63 /* bbking.jpg in Resources */,
+				54BEB5A6229781C80079EE63 /* waylon.jpg in Resources */,
+				54BEB5B2229781C80079EE63 /* RL.jpg in Resources */,
+				54BEB5AA229781C80079EE63 /* merele.jpg in Resources */,
+				54BEB5A0229781C80079EE63 /* plant.jpg in Resources */,
+				54BEB5A4229781C80079EE63 /* robert.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54CDE8EC22970F7900F512F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CDE90B22971CC000F512F0 /* makeObjs.swift in Sources */,
+				54CDE8F622970F7900F512F0 /* ViewController.swift in Sources */,
+				54CDE8F422970F7900F512F0 /* AppDelegate.swift in Sources */,
+				54CDE90D229730FB00F512F0 /* tvCell.swift in Sources */,
+				54CDE9072297147E00F512F0 /* Musician.swift in Sources */,
+				54CDE90F22973D2500F512F0 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54CDE93922974E4500F512F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CDE94322974E4500F512F0 /* ServiceProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54CDE94622974E4500F512F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54CDE93C22974E4500F512F0 /* TvTopShelfProvider */;
+			targetProxy = 54CDE94522974E4500F512F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54CDE8F722970F7900F512F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54CDE8F822970F7900F512F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54CDE8FD22970F7B00F512F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+			};
+			name = Debug;
+		};
+		54CDE8FE22970F7B00F512F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54CDE90022970F7B00F512F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7MC5RMNWH;
+				INFOPLIST_FILE = VassHayden_CE04/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDF4.VassHayden-CE04";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		54CDE90122970F7B00F512F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7MC5RMNWH;
+				INFOPLIST_FILE = VassHayden_CE04/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDF4.VassHayden-CE04";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		54CDE94922974E4500F512F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7MC5RMNWH;
+				INFOPLIST_FILE = TvTopShelfProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDF4.VassHayden-CE04.TvTopShelfProvider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		54CDE94A22974E4500F512F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7MC5RMNWH;
+				INFOPLIST_FILE = TvTopShelfProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDF4.VassHayden-CE04.TvTopShelfProvider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54CDE8EB22970F7900F512F0 /* Build configuration list for PBXProject "VassHayden_CE04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54CDE8FD22970F7B00F512F0 /* Debug */,
+				54CDE8FE22970F7B00F512F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54CDE8FF22970F7B00F512F0 /* Build configuration list for PBXNativeTarget "VassHayden_CE04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54CDE90022970F7B00F512F0 /* Debug */,
+				54CDE90122970F7B00F512F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54CDE94822974E4500F512F0 /* Build configuration list for PBXNativeTarget "TvTopShelfProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54CDE94922974E4500F512F0 /* Debug */,
+				54CDE94A22974E4500F512F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54CDE8E822970F7900F512F0 /* Project object */;
+}
